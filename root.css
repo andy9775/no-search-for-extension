@@ -3,7 +3,12 @@
   border: none !important;
 }
 
-.exp-outline + div > div:nth-child(3) {
+.exp-outline + div {
+  /* Automatic adjustment clicked search result height */
+  height: auto !important;
+}
+
+.IsZvec div:nth-child(2) {
   /* don't display list of suggestions */
   display: none !important;
 }
