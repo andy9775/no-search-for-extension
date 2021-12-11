@@ -1,3 +1,4 @@
+/* keeping old changes for where new design is not rolled out */
 .exp-outline {
   /* don't outline the last clicked search result */
   border: none !important;
@@ -6,4 +7,15 @@
 .exp-outline + div > div:nth-child(3) {
   /* don't display list of suggestions */
   display: none !important;
+}
+
+/* New changes */
+.g > div > div:nth-child(2) {
+  /* disable height transition on particular result */
+	height: unset !important;
+}
+
+.g > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+  /* don't display list of suggestions */
+	display: none !important;
 }
