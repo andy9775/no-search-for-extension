@@ -12,10 +12,10 @@
 /* New changes */
 .g > div > div:nth-child(2) {
   /* disable height transition on particular result */
-	height: unset !important;
+  height: unset !important;
 }
 
-.g > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+.g > div > div:nth-child(2) > div:nth-child(2) > div:last-child {
   /* don't display list of suggestions */
-	display: none !important;
+  display: none !important;
 }
