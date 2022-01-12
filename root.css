@@ -10,7 +10,7 @@
 }
 
 /* New changes */
-.IsZvec > div:last-child {
+.IsZvec > div:nth-child(3)[jscontroller] {
   /* don't display list of suggestions */
   display: none !important;
 }

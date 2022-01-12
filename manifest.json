@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "No Search For",
-  "version": "2",
+  "version": "3",
   "description": "Remove the 'People also search for' element on google search",
   "content_scripts": [
     {
