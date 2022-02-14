@@ -1,3 +1,11 @@
+
+/* Dec 2021 changes */
+.IsZvec > div:nth-child(3)[jscontroller] {
+  /* don't display list of suggestions */
+  display: none !important;
+}
+
+/* Feb 2022 changes */
 .jtfYYd > div:nth-child(3) > div[jscontroller] {
   /* don't display list of suggestions */
   display: none !important;
