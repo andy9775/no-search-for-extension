@@ -1,0 +1,3 @@
+#!/bin/bash
+
+zip no-search-for.zip manifest.json root.css

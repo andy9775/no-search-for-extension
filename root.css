@@ -1,4 +1,3 @@
-
 /* Dec 2021 changes */
 .IsZvec > div:nth-child(3)[jscontroller] {
   display: none !important;
@@ -6,5 +5,17 @@
 
 /* Feb 2022 changes */
 .jtfYYd > div:nth-child(3) > div[jscontroller] {
+  display: none !important;
+}
+
+/* 
+  Feb 20, 2022 changes
+  
+  .g is too generic (and repeated too many times in the tree) to select so we
+  want to select a specific child. When the search suggestion panel opens up,
+  there is a height transition on the search result. Finally, the search panel
+  has some unique attributes.
+ */
+.g div[style] div[jscontroller][jsaction][data-ved] {
   display: none !important;
 }
