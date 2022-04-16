@@ -19,3 +19,7 @@
 .g div[style] div[jscontroller][jsaction][data-ved] {
   display: none !important;
 }
+
+.g[style] div[jscontroller][jsaction][data-ved] {
+  display: none !important;
+}
